@@ -1,0 +1,9 @@
+test() =>(desc,function,timeout)
+describe("name",function)=> made it to organise the tests by units ..etc //czn be nested
+
+expect().toBe=> what we expect to be the output
+
+test.only() or describe.only() run jsu this test and skip all the others
+
+
+test.skip() or describe.skip() skip just this test and run all the others
