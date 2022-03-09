@@ -7,3 +7,9 @@ test.only() or describe.only() run jsu this test and skip all the others
 
 
 test.skip() or describe.skip() skip just this test and run all the others 
+
+
+beforeAll(function,timeout)  //condition to be run before the test like connect and add new line to database to make test on it
+AfterAll(function,timeout)  //action to be run after  the test like deltete the database line and clean the cash
+BeforeEach(function,timeout) //same but to be run before each test
+AfterEach(function,timeout)
